@@ -1,4 +1,4 @@
-PerformHttpRequest("https://api.github.com/repos/LucaNL/CarWipe-FiveM/releases/latest", function(err, text, headers)
+PerformHttpRequest("https://api.github.com/repos/PYRED-Scripts/FiveM-Carwipe/releases/latest", function(err, text, headers)
 	Citizen.Wait(5000)
 	if text then
 		local info = json.encode(text) info = json.decode(text)
